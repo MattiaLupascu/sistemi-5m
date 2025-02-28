@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
+  <diagram name="Pagina-1" id="6pusAgcevOXP8x2S15AX">
+    <mxGraphModel dx="1674" dy="1949" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Nj_OA0KVYK7pMX0rfcp_-1" value="PROCEDURA FIRMA" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="101" y="-1124" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj_OA0KVYK7pMX0rfcp_-2" value="testo" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="71" y="-1048" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj_OA0KVYK7pMX0rfcp_-3" value="SHA256" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="71" y="-942" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj_OA0KVYK7pMX0rfcp_-4" value="RSA con chiave privata" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="71" y="-836" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj_OA0KVYK7pMX0rfcp_-5" value="DOC FIRMATO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="71" y="-730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj_OA0KVYK7pMX0rfcp_-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Nj_OA0KVYK7pMX0rfcp_-5" target="Nj_OA0KVYK7pMX0rfcp_-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="224" y="-717" as="sourcePoint" />
+            <mxPoint x="274" y="-767" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nj_OA0KVYK7pMX0rfcp_-7" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Nj_OA0KVYK7pMX0rfcp_-4" target="Nj_OA0KVYK7pMX0rfcp_-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="224" y="-717" as="sourcePoint" />
+            <mxPoint x="274" y="-767" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nj_OA0KVYK7pMX0rfcp_-8" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Nj_OA0KVYK7pMX0rfcp_-3" target="Nj_OA0KVYK7pMX0rfcp_-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="224" y="-717" as="sourcePoint" />
+            <mxPoint x="274" y="-767" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nj_OA0KVYK7pMX0rfcp_-9" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Nj_OA0KVYK7pMX0rfcp_-2" target="Nj_OA0KVYK7pMX0rfcp_-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="224" y="-717" as="sourcePoint" />
+            <mxPoint x="274" y="-767" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nj_OA0KVYK7pMX0rfcp_-10" value="PROCEDURA&amp;nbsp; VERIFICA" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="356" y="-1124" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj_OA0KVYK7pMX0rfcp_-11" value="I (documento&amp;nbsp;&lt;div&gt;firmato)&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="326" y="-1048" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj_OA0KVYK7pMX0rfcp_-12" value="separazione testo e firma" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="326" y="-942" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj_OA0KVYK7pMX0rfcp_-13" value="SHA256 - TC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="326" y="-836" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj_OA0KVYK7pMX0rfcp_-14" value="Decifratura firma" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="326" y="-730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj_OA0KVYK7pMX0rfcp_-15" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Nj_OA0KVYK7pMX0rfcp_-14" target="Nj_OA0KVYK7pMX0rfcp_-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="479" y="-717" as="sourcePoint" />
+            <mxPoint x="529" y="-767" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nj_OA0KVYK7pMX0rfcp_-16" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Nj_OA0KVYK7pMX0rfcp_-13" target="Nj_OA0KVYK7pMX0rfcp_-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="479" y="-717" as="sourcePoint" />
+            <mxPoint x="529" y="-767" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nj_OA0KVYK7pMX0rfcp_-17" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Nj_OA0KVYK7pMX0rfcp_-12" target="Nj_OA0KVYK7pMX0rfcp_-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="479" y="-717" as="sourcePoint" />
+            <mxPoint x="529" y="-767" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nj_OA0KVYK7pMX0rfcp_-18" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Nj_OA0KVYK7pMX0rfcp_-11" target="Nj_OA0KVYK7pMX0rfcp_-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="479" y="-717" as="sourcePoint" />
+            <mxPoint x="529" y="-767" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nj_OA0KVYK7pMX0rfcp_-22" value="Confronto con DIGEST" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="326" y="-624" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
